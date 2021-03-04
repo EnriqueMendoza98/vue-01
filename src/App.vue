@@ -41,7 +41,7 @@ export default {
                     link:'https://www.tiktok.com/',
                     color:'bg-pink-500',
                     texhover:'hover:shadow-2xl',
-                    hovertxt:'hover:text-pink-600', //este hover lo deje para el caso del hover en el boton
+                    hovertxt:'hover:text-black', //este hover lo deje para el caso del hover en el boton
                     textcolor:'text-white',
                     butborder:'border-white', //borde para el boton
                     border_color:'border-black', //borde de la tarjeta

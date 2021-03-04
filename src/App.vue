@@ -1,5 +1,5 @@
 <template>
-<div class=" dark:bg-gray-800 w-screen h-screen flex flex-row justify-center items-center space-x-4 ">
+<div class=" dark:bg-gray-700 w-screen h-screen flex flex-row justify-center items-center space-x-4 ">
     <Card v-for="(l, key) of list" :key="key" :value="l"/>
 </div>
 </template>
@@ -39,10 +39,11 @@ export default {
                 },
                 {
                     link:'https://www.tiktok.com/',
+                    color:'bg-pink-500',
                     texhover:'hover:shadow-2xl',
-                    hovertxt:'hover:text-black', //este hover lo deje para el caso del hover en el boton
-                    textcolor:'text-pink-600',
-                    butborder:'border-pink-600', //borde para el boton
+                    hovertxt:'hover:text-pink-600', //este hover lo deje para el caso del hover en el boton
+                    textcolor:'text-white',
+                    butborder:'border-white', //borde para el boton
                     border_color:'border-pink-600', //borde de la tarjeta
                     name:'TikTok',
                     description:'TikTok es una aplicación de medios de iOS y Android para crear y compartir vídeos cortos. La aplicación permite a los usuarios crear vídeos musicales cortos de 3–15 segundos.',
@@ -63,7 +64,7 @@ export default {
                 {
                     link:'https://www.messenger.com/',
                     texhover:'hover:shadow-2xl',
-                    hovertxt:'hover:text-black', //este hover lo deje para el caso del hover en el boton
+                    hovertxt:'hover:text-white', //este hover lo deje para el caso del hover en el boton
                     textcolor:'text-blue-400',
                     butborder:'border-blue-400', //borde para el boton
                     border_color:'border-blue-300', //borde de la tarjeta

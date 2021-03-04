@@ -44,7 +44,7 @@ export default {
                     hovertxt:'hover:text-pink-600', //este hover lo deje para el caso del hover en el boton
                     textcolor:'text-white',
                     butborder:'border-white', //borde para el boton
-                    border_color:'border-pink-600', //borde de la tarjeta
+                    border_color:'border-black', //borde de la tarjeta
                     name:'TikTok',
                     description:'TikTok es una aplicación de medios de iOS y Android para crear y compartir vídeos cortos. La aplicación permite a los usuarios crear vídeos musicales cortos de 3–15 segundos.',
                     image:'https://www.logo.wine/a/logo/TikTok/TikTok-Logomark%26Wordmark-Vertical-Logo.wine.svg'

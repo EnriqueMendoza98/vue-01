@@ -42,7 +42,7 @@ export default {
                     texhover:'hover:shadow-2xl',
                     hovertxt:'hover:text-pink-600', //este hover lo deje para el caso del hover en el boton
                     textcolor:'text-white',
-                    butborder:'border-black', //borde para el boton
+                    butborder:'border-pink-600', //borde para el boton
                     border_color:'border-pink-600', //borde de la tarjeta
                     name:'TikTok',
                     description:'TikTok es una aplicación de medios de iOS y Android para crear y compartir vídeos cortos. La aplicación permite a los usuarios crear vídeos musicales cortos de 3–15 segundos.',
